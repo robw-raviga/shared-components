@@ -9,7 +9,7 @@ const _ = {
 }
 
 /**
- * This setup function is exposed to a platform specific version can call it to register itself.
+ * This setup function is exposed so a platform specific version can call it to register itself.
  */
 export function setup(component: PlatformSpecificComponentType) {
   _.component = component
